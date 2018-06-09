@@ -1,0 +1,8 @@
+setup.py
+src/stream_server/__init__.py
+src/stream_server/server.py
+stream_server.egg-info/PKG-INFO
+stream_server.egg-info/SOURCES.txt
+stream_server.egg-info/dependency_links.txt
+stream_server.egg-info/not-zip-safe
+stream_server.egg-info/top_level.txt

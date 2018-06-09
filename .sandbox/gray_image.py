@@ -1,5 +1,5 @@
 import cv2
-from server import StreamingSever
+from stream_server import StreamingSever
 
 
 def gen_gray_image():
@@ -20,4 +20,4 @@ def gen_gray_image():
 
 
 app = StreamingSever(gen_gray_image)
-app.run(host="0.0.0.0", port = "8000", debug=True)
+app.run(host="0.0.0.0", port="8000", debug=True)
